@@ -47,12 +47,12 @@ echo -e $lightgreen
 echo " ----[C] 2019 |ParrotSec |Dracos |Hacker Indonesia |Palembang |"
 echo ""
 echo -e $red
-echo -n "tekan ENTER untuk melanjutkan .............."
+echo -n "PRESS ENTER TO CONTINUE.............."
 read warning
 echo -e $lightgreen
 #!/bin/bash
 #set the prompt to show you are in pentmenu and not standard shell
-PS3="Pentmenu@evsystem>"
+PS3="Feynn@fnsystem>"
 
 ##MAINMENU##
 ##################
@@ -64,7 +64,7 @@ mainmenu()
 mainmenu=("Recon" "DOS" "Extraction" "View Readme" "Quit")
 select opt in "${mainmenu[@]}"; do
 	if [ "$opt" = "Quit" ]; then
-	echo "Quitting...Thank you for using pentmenu!" && sleep 1 && clear
+	echo "Quitting...Thank you for using feynnmenu!" && sleep 1 && clear
 	exit 0
 	elif [ "$opt" = "Recon" ]; then
 reconmenu
@@ -1080,30 +1080,23 @@ fi }
 #so the welcome message MUST be placed at the end of the script
 	clear && echo ""
 echo " "
-echo -e $red
+echo -e $blue
 echo " "
-echo " ddddddd     dddddddd      oo00000000        ssssss                  "
-echo " dd     d    dd       d    oo      00      ss                  \     "
-echo " dd      d   dd        d   oo      00      ss        -----------\    "
-echo " dd       d  dd         d  oo      00       sss                  \   "
-echo " dd       d  dd         d  oo      00           ss   ----------- /   "
-echo " dd      d   dd        d   oo      00             ss            /    "
-echo " dd     d    dd       d    oo      oo            ss            /     "
-echo " ddddddd     ddddddddd     oooooooooo      ssssss    MASTER          "
+echo " FFFFFFFFFFFF   EEEEEEEEEEE   YYY         YYY   NNN         NNN   NNN         NNN "
+echo " FF             EE              YYY     YYY     NNNNN       NNN   NNNNN       NNN "
+echo " FF             EE               YYY   YYY      NNN NN      NNN   NNN NN      NNN "
+echo " FFFFFFFFFFF    EEEEEEEEEEE       YYY YYY       NNN   NN    NNN   NNN   NN    NNN "
+echo " FF             EE                  YYY         NNN    NN   NNN   NNN    NN   NNN "
+echo " FF             EE                  YYY         NNN     NN  NNN   NNN     NN  NNN "
+echo " FF             EE                  YYY         NNN      NN NNN   NNN      NN NNN "
+echo " FF             EEEEEEEEEEE         YYY         NNN        NNNN   NNN        NNNN "
 
 
 echo ""
 echo -e $white
 echo "    ______________________________________________"
-echo "===>|  PENTMENU TOOLS DDOS                        |"
-echo "    | SCRIPT BY:                                  |" 
-echo "    |  https://github.com/GinjaChris/pentmenu     |"
-echo "    |   |->EDITOR BY:Eko Saputra (evsystem)       |"
-echo "    |    ->Version :1.2.4                         |"
-echo "===>| follow me on Github : @ekovegeance          |"
-echo "    |   twitter :@ekovegeance7                    |"
-echo "    |   Website :evsystem.github.io               |"
-echo "    |      DOWN DOWN DOWN  DOWN DOWN DOWN!!!      |"
+echo "===>|              FEYN TOOLS DDOS                |"
+echo "===>|             ->Version :1.2.4                |"
 echo "===>|_____________________________________________|"
 mainmenu
 ##END WELCOME MESSAGE##
